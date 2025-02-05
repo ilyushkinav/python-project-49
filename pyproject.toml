@@ -5,12 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "asciinema>=2.4.0",
     "make>=0.1.6.post2",
     "prompt>=0.4.1",
 ]
 
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
 
 [build-system]
 requires = ["hatchling"]
