@@ -1,22 +1,22 @@
-import random
-
 import prompt
+
+from .game_logic import start_game, num, name_player, hello, wrong_answer, congratulations
 
 
 def start_even_game():
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    start_game()
+    name = name_player()
+    print(hello(name))
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     count = 3
     while count > 0:
-        num = random.randint(1, 100)
-        print(f'Question: {num}')
+        number = num()
+        print(f'Question: {number}')
         ansver_player = prompt.string('Your answer: ')
         answer = ''
-        if num % 2 == 0:
+        if number % 2 == 0:
             answer = 'yes'
         else:
             answer = 'no'
@@ -25,8 +25,7 @@ def start_even_game():
             print('Correct!')
             count -= 1
         else:
-            print(f"'{ansver_player}' is wrong answer ;(. Correct answer was '{answer}'.")
-            print(f"Let's try again, {name}!")
+            wrong_answer(ansver_player, answer, name)
             break
     if count == 0:
-        print(f'Congratulations, {name}!')
+        print(congratulations(name))
