@@ -1,6 +1,13 @@
 import prompt
 
-from .game_logic import start_game, num, name_player, hello, wrong_answer, congratulations
+from brain_games.game_logic import (
+    congratulations,
+    hello,
+    name_player,
+    num,
+    start_game,
+    wrong_answer,
+)
 
 
 def start_even_game():
