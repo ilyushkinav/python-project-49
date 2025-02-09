@@ -26,6 +26,6 @@ def congratulations(name):
     return f'Congratulations, {name}!'
 
 
-def num():
-    num = random.randint(1, 100)
+def num(num_one=1, num_two=100):
+    num = random.randint(num_one, num_two)
     return num
