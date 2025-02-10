@@ -23,13 +23,16 @@ This package contains the following games:
 ### Installation
     make package-install
 
+### Example of package installation
+   https://asciinema.org/a/5gBHG6PGa5qvPfFH9b43vBa3B
+
 ### Brain-even
 To launch the game, enter into the terminal window:
 
     brain-even
 Example of gameplay:
 
-   https://asciinema.org/a/o0FnD7Zpkm2HI0ebnvStQh69T
+   https://asciinema.org/a/8MsMhbr57kN4md0YdwNGWvKeP
 
 ### Brain-calc
 To launch the game, enter into the terminal window:
