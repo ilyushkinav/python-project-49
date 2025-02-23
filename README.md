@@ -15,13 +15,19 @@ This package contains the following games:
 * Brain-prime
 
 ### Copy the repository
-    git clone git@github.com:ilyushkinav/python-project-49.git
+```
+git clone git@github.com:ilyushkinav/python-project-49.git
+```
 
 ### Assemble the package
-    make build
+```
+make build
+```
 
 ### Installation
-    make package-install
+```
+make package-install
+```
 
 ### Example of package installation
    https://asciinema.org/a/5gBHG6PGa5qvPfFH9b43vBa3B
