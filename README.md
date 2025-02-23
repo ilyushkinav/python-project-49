@@ -34,39 +34,46 @@ make package-install
 
 ### Brain-even
 To launch the game, enter into the terminal window:
-
-    brain-even
+```
+brain-even
+```
 Example of gameplay:
 
    https://asciinema.org/a/8MsMhbr57kN4md0YdwNGWvKeP
 
 ### Brain-calc
 To launch the game, enter into the terminal window:
-
-    brain-calc
+```
+brain-calc
+```
 Example of gameplay:
    https://asciinema.org/a/i3Ghut7XTDN9hn21FJO0Zo28Y
 
 ### Brain-gcd
 To launch the game, enter into the terminal window:
-
-    brain-gcd
+```
+brain-gcd
+```
 Example of gameplay:
    https://asciinema.org/a/FcymoRidlukuDprAsgD3HK8Nt
 
 ### Brain-progression
 To launch the game, enter into the terminal window:
-
-    brain-progression
+```
+brain-progression
+```
 Example of gameplay:
    https://asciinema.org/a/qpdfWEShqYdoIjDEYk9HsG7a8
 
 ### Brain-prime
 To launch the game, enter into the terminal window:
-
-    brain-prime
+```
+brain-prime
+```
 Example of gameplay:
    https://asciinema.org/a/d0PhBQjefvkqLmJZ0GSzd7xaa
 
 ### Removing an installed package
-    uv tool uninstall hexlet-code
+```
+uv tool uninstall hexlet-code
+```
