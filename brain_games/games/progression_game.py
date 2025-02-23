@@ -1,7 +1,7 @@
 import random
 
 
-def correct_answer():
+def correct_answer_progression():
 
     count_number = random.randint(5, 10)
     start_number = random.randint(1, 40)

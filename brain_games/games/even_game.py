@@ -1,7 +1,7 @@
 import random
 
 
-def correct_answer():
+def correct_answer_even():
 
     number = random.randint(1, 100)
 

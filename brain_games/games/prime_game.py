@@ -1,7 +1,7 @@
 import random
 
 
-def correct_answer():
+def correct_answer_prime():
 
     number = random.randint(1, 500)
     question = f'Question: {number}'

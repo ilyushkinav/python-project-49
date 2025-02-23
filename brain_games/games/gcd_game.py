@@ -1,7 +1,7 @@
 import random
 
 
-def correct_answer():
+def correct_answer_gcd():
 
     number_one = random.randint(1, 50)
     number_two = random.randint(1, 50)

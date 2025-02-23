@@ -1,7 +1,7 @@
 import random
 
 
-def correct_answer():
+def correct_answer_calc():
 
     number_one = random.randint(1, 10)
     number_two = random.randint(1, 10)
